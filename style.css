@@ -103,6 +103,12 @@ body{
     max-width: 800px;
     margin: 0 auto;
 }
+.main-pag-contato{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
 #carouselExampleControls{
     align-items: center;
 }
@@ -149,6 +155,13 @@ body{
 }
 .title{
     width: 100%;
+}
+.imagem-sobrenos{
+    width: 100%;
+    margin-top: 20px;
+}
+.texto-pag-sobrenos{
+    margin-top: 15px;
 }
 .texto_h2{
     margin-top: 20px;
@@ -216,7 +229,6 @@ body{
 .div_email, .div_nome, .div_mensagem{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     margin-bottom: 10px;
     align-items: center;
     text-align: center;
@@ -226,6 +238,7 @@ body{
     border: solid 1px #9B9B9B;
     padding: 4px;
     border-radius: 6px;
+    width: 100%;
     margin-bottom: 10px;
 }
 .botao_enviar{
@@ -244,7 +257,44 @@ body{
     font-size: 18px;
     font-weight: 700;
 }
+.conteudo_pagina_parceiros{
+    max-width: 935px;
+    align-items: center;
+    margin: 0 auto;
+}
+.imagem_div_parceiros{
+    width: 300px;
+}
+.div-imagem_e_texto_parceiros{
+    margin-bottom: 10px;
+}
+.imagens_parceiros{
+    max-width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+}
+.titulo_pag_parceiros{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.texto_pag_parceiros{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.titulo_pag_parceiro_imagens{
+    font-size: 18px;
+    font-weight: 700;
+}
 @media(max-width: 940px){
+    .conteudo_pagina_parceiros{
+        max-width: 620px;
+        align-items: center;
+        margin: 0 auto;
+    }
     .texto_h2{ 
         margin-left: 20px;
     }
@@ -298,6 +348,12 @@ body{
         font-size: 20px;
     }
     .secao-pagina-demeter{
+        display: flex;
+        align-items: center;
+        max-width: 600px;
+    }
+    .main-pag-contato{
+        margin-top: 50px;
         display: flex;
         align-items: center;
         max-width: 600px;
@@ -370,6 +426,10 @@ body{
         max-width: 400px;
         margin-left: 0;  
     }
+    .main-pag-contato{
+        max-width: 400px;
+        margin-left: 0; 
+    }
     .secoes-pag2-texto-imagem{
         width: 100%;
     }
@@ -434,4 +494,11 @@ body{
         padding-left: 20px;
     }
 }
-
+@media(max-width: 620px){
+    .conteudo_pagina_parceiros{
+        max-width: 310px;
+        text-align: left;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
